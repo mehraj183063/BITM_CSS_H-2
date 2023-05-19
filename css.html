@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    #images {
+        width: 100%;
+        height: 500px;
+        background-image: url("1.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+
+    .logos {
+        background-color: orange;
+        text-align: center;
+    }
+
+    nav {
+        padding-top: 25px;
+    }
+
+    nav a {
+        text-decoration: none;
+        margin-left: 20px;
+    }
+
+    .heart {
+        text-align: center;
+        padding-top: 150px;
+    }
+
+
+    .left-content,
+    .right-content {
+        width: 25%;
+        background-color: orange;
+        height: 500px;
+    }
+
+    .content {
+        width: 50%;
+        background-color: white;
+        height: 500px;
+    }
+
+    .floated-elemen {
+        float: left;
+    }
+
+    .parallex {
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
+
+<body>
+    <section>
+        <section class="logos">
+            <nav>
+                <a href="http://" target="_blank">Home</a>
+                <a href="http://" target="_blank">Products</a>
+                <a href="http://" target="_blank">About</a>
+                <a href="http://" target="_blank">Contact</a>
+                <a href="http://" target="_blank">Service</a>
+                <br> <br><br>
+            </nav>
+        </section>
+
+        <section>
+            <div id="images" class="parallex">
+                <h1 class="heart" style="font-size:30px;">LEARN FROM YOUR HEART<br> <br> <input type="button"
+                        value="Read MORE"></h1>
+            </div>
+        </section>
+
+        <section>
+
+            <div class="left-content floated-elemen">
+                <ul>
+
+                    <li>Tag Selector</li>
+                    <li>ID Selector</li>
+                    <li>Class selector</li>
+                    <li> Descremendant Selector</li>
+                </ul>
+            </div>
+
+
+            <div class="content floated-elemen">
+                <h2 class="bg-warning ">Our Objective</h2>
+
+                <p>What is a goal vs. objective? A goal is an achievable outcome that is generally broad and longer term
+                    while an objective is shorter term and defines measurable actions to achieve an overall goal. While
+                    different, the two terms are often used in unison when working on a projec</p>
+            </div>
+
+
+            <div class="right-content floated-elemen" style="background-color: aliceblue;">
+                <ul>
+
+                    <li>Tag Selector</li>
+                    <li>ID Selector</li>
+                    <li>Class selector</li>
+                    <li> Descremendant Selector</li>
+                </ul>
+            </div>
+
+
+        </section>
+</body>
+
+</html>
